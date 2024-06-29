@@ -1,0 +1,72 @@
+.wrapper {
+    border: 1px solid rgba(155, 151, 151, 0.250);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+}
+
+.wrap-email>div,
+.wrap-phone>div,
+.wrap-language>div,
+.wrap-login>div {
+    display: flex;
+    align-items: center;
+}
+
+.social-media-icons {
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+}
+
+/* Responsive Component Part */
+
+@media (max-width: 2560px) {
+    .basic-email,
+    .basic-phone,
+    .basic-language,
+    .basic-login {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1440px) {
+    .basic-email,
+    .basic-phone,
+    .basic-language,
+    .basic-login {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .basic-email,
+    .basic-phone,
+    .basic-language,
+    .basic-login {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 765px) {
+    .wrapper {
+        width: auto;    
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .wrap-language, .wrap-login {
+        padding: 0px 50px 0px 50px;
+    }
+
+    .wrap-email, .wrap-phone, .social-media-icons {
+        display: none;
+    }
+}
+
+@media (max-width: 344px) {
+    .wrap-language, .wrap-login {
+        padding: 0px 35px 0px 35px;
+    }
+} 

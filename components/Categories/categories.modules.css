@@ -1,0 +1,149 @@
+#categories-container {
+    padding: 25px 75px 25px 75px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 0px 15px 0px 0px;
+}
+
+.logo>h1 {
+    color: rgb(37, 37, 37);
+}
+
+.separate-items {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(155, 151, 151, 0.250);
+    height: 10vh;
+}
+
+.categories>div {
+    border-right: 1px solid rgba(155, 151, 151, 0.250);
+    padding: 0px 15px 0px 15px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.what-you-need>div {
+    display: flex;
+    align-items: center;
+}
+
+input[type=search],
+select {
+    height: 10vh;
+}
+
+.search-icon {
+    color: #FFF;
+    background-color: rgb(231, 171, 60);
+    width: 100px;
+    height: 10vh;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-icons {
+    display: flex;
+    gap: 5px;
+}
+
+.shopping-cart {
+    position: relative;
+    cursor: pointer
+}
+
+.shopping-counter {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(231, 171, 60);
+    color: #FFF;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Part */
+
+@media (max-width: 2560px) {
+    .logo>h1 {
+        font-size: 3em;
+    }
+
+    #cat-you-need,
+    .categories,
+    .cart-icons {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1440px) {
+    .logo>h1 {
+        font-size: 2em;
+    }
+    
+    #cat-you-need,
+    .categories,
+    .cart-icons {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .logo>h1 {
+        font-size: 1.5em;
+    }
+
+    #cat-you-need,
+    .categories,
+    .cart-icons {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 765px) {
+    #categories-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo>h1 {
+        font-size: 2em;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .separate-items {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border: 0;
+    }
+
+    .categories>div {
+        display: none;
+    }
+
+    .what-you-need {
+        width: 100%;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .cart-icons {
+        width: 100%;
+    }
+}

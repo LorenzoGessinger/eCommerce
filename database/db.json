@@ -1,0 +1,104 @@
+[
+    {
+        "id": 1,
+        "type": "Clothe",
+        "title": "Coat",
+        "name": "Cottom Coat",
+        "price": "39",
+        "brand": "Orochi",
+        "imageIndex": "../img/img10.jpg",
+        "secondImageIndex": "../img/img11.jpg",
+        "sizes": "S"
+    },
+    {
+        "id": 2,
+        "type": "Clothe",
+        "title": "Blouse",
+        "name": "Feminine Blouse",
+        "brand": "Gucci",   
+        "price": "29",
+        "imageIndex": "../img/img11.jpg",
+        "secondImageIndex": "../img/img10.jpg",
+        "sizes": "M"
+    },
+    {
+        "id": 3,
+        "type": "Handbag",
+        "title": "Handbag",
+        "name": "Leather Red Handbag",
+        "price": "199",
+        "brand": "CHANEL",
+        "imageIndex": "../img/img12.jpg",
+        "secondImageIndex": "../img/img13.jpg",
+        "sizes": "S"
+    },
+    {
+        "id": 4,
+        "type": "Handbag",
+        "title": "Handbag",
+        "name": "Leather Brown Handbag",
+        "price": "69",
+        "brand": "Zara",
+        "imageIndex": "../img/img13.jpg",
+        "secondImageIndex": "../img/img12.jpg",
+        "sizes": "M"
+    },
+    {
+        "id": 5,
+        "type": "Handbag",
+        "title": "Handbag",
+        "name": "Leather Brown Handbag",
+        "price": "129",
+        "brand": "Gucci",
+        "imageIndex": "../img/img14.jpg",
+        "secondImageIndex": "../img/img12.jpg",
+        "sizes": "L"
+    },
+    {
+        "id": 6,
+        "type": "Backpack",
+        "title": "Backpack",
+        "name": "Cottom Backpack",
+        "price": "199",
+        "brand": "Corvette",
+        "imageIndex": "../img/img17.jpg",
+        "secondImageIndex": "../img/img21.jpg",
+        "sizes": "Default"
+    },
+    {
+        "id": 7,
+        "type": "Shoe",
+        "title": "Shoes",
+        "name": "Black and White Shoes",
+        "price": "239",
+        "brand": "Nike",
+        "sizeThirtySeven": 37,
+        "sizeThirtyEight": 38,
+        "sizeThirtyNine": 39,
+        "sizeForty": 40,
+        "imageIndex": "../img/img29.jpg",
+        "secondImageIndex": "../img/img27.jpg"
+    },
+    {
+        "id": 8,
+        "type": "Clothe",
+        "title": "T-shirt",
+        "name": "Cottom T-shirt",
+        "price": "19",
+        "Brand": "Colcci",
+        "imageIndex": "../img/img30.jpg",
+        "secondImageIndex": "../img/img12.jpg",
+        "sizes": "L"
+    },
+    {
+        "id": 9,
+        "type": "Clothe",
+        "title": "T-Shirt",
+        "name": "Soft T-shirt",
+        "price": "14",
+        "brand": "Gucci",
+        "imageIndex": "../img/img31.jpg",
+        "secondImageIndex": "../img/img32.jpg",
+        "sizes": "XS"
+    }
+]
